@@ -18,8 +18,14 @@
       <label for="apellido">Apellido</label>
       <input type="text" id="apellido" required>
 
-      <label for="telefono">Teléfono</label>
-      <input type="tel" id="telefono" required>
+    <label for="telefono">Teléfono</label>
+
+<input 
+type="tel" 
+id="telefono"
+pattern="[0-9]+"
+title="Solo se permiten números"
+required>
 
       <button type="submit">Enviar</button>
     </form>
